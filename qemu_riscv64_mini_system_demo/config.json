@@ -1,0 +1,19 @@
+{
+    "product_name": "qemu_riscv64_mini_system_demo",
+    "ohos_version": "OpenHarmony 1.0",
+    "device_company": "qemu",
+    "board": "riscv64_virt",
+    "kernel_type": "liteos_m",
+    "kernel_version": "3.0.0",
+    "subsystems": [
+      {
+        "subsystem": "kernel",
+        "components": [
+          { "component": "liteos_m", "features":[ "enable_ohos_kernel_liteos_m_test = true" ]
+          }
+        ]
+      }
+    ],
+    "third_party_dir": "",
+    "product_adapter_dir": "//vendor/ohemu/qemu_riscv64_mini_system_demo/hals"
+}
